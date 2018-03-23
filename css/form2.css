@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+.panel {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+  box-sizing:  border-box;
+  font-family:  "Times New Roman",Georgia,Serif; 
+}
+.inp100 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 5px;
+}
+.bst {
+  margin: 10px 0;
+}
+.pt5 {
+  padding-top: 5px;
+}
+.pr5 {
+  padding-right: 5px;
+}
+.pl5 {
+  padding-left: 5px;
+}
+.pr10 {
+  padding-right: 10px;
+}
+.pl10 {
+  padding-left: 10px;
+}
+.textCenter {
+  text-align: center;
+}
+h1 {
+  text-align:  center;
+}
+.ul-number {
+  padding-left: 20px;
+}
+.ul-number li {
+  list-style-type: lower-latin;
+}
+.ul-rule li {
+  list-style-type: lower-roman;
+}
+.sstitle {
+  background-color: cornflowerblue;
+  color: #000;
+  border: 2px solid #000;
+  padding: 5px;
+  margin-top: 10px;
+  font-weight:  700;
+}
+.ssstitle {
+  font-weight: 700;
+  padding-top: 10px;
+}
+.form {
+  width: 740px;
+  margin: 20px auto;
+}
+.subtitle {
+  font-size: 18px;
+  color: #fff;
+  background: blue;
+  border: 2px solid #000;
+  padding: 5px;
+}
+.item {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+}
+.itemLabel {
+  width: 170px;
+}
+.itemRight {
+  flex: 1;
+  font-size: 18px;
+}
+label {
+  font-size: 18px;
+}
+input + input {
+  margin-top: 5px;
+}
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="radio"] {
+  cursor:  pointer;
+  line-height: 20px;
+}
+.ssstitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+.inputBefore1 {
+  position: relative;
+}
+.item-dubble {
+  overflow: hidden;
+}
+.item-dubble .item {
+  float: left;
+  width: 50%;
+}
+.item-textearea .item {
+  display: block;
+}
+.item-textearea textarea, .itemTextarea2 {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+}
+.itemTextarea1 {
+  width: 100%;
+  height: 50px;
+  resize: none;
+  border: 1px solid #ccc;
+}
+.btn1{
+  width:100%;
+  text-align:center;
+}
+.submit{
+  padding:5px 15px;
+}
